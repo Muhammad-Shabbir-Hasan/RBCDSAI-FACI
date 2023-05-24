@@ -1,0 +1,39 @@
+\documentclass[10pt]{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{lipsum}
+\usepackage{amsfonts}
+\usepackage{graphicx} % Required for inserting images
+
+\title{\textbf{Title Comes Here}}
+\author{Author A$^+$, Author B$^+$, Author C$^\dagger$, and Author D$^*$ \\
+$^+$Affiliation X \\
+$^\dagger$Affiliation Y\\
+$^*$Affiliation Z
+}
+\date{}
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\lipsum[1]
+\end{abstract}
+
+
+\section{Section Title}
+
+\lipsum[2]
+The Part-time Parliament~\cite{lamport:1998:paxos}.
+
+\lipsum[3]
+This is how CS will look in the next 50 years~\cite{mccarthy:2003:csprojections}.
+
+\section{Section 2 Title}
+
+\lipsum[4-8]
+
+\bibliographystyle{unsrt}
+\bibliography{references.bib}
+
+
+\end{document}
